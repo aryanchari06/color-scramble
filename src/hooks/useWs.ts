@@ -33,7 +33,7 @@ const useSocket = (roomId: ParamValue) => {
     });
 
     socket.on("update-score", (data: any) => {
-      console.log(data);
+      // console.log(data);
       if (data.payload.user === socket.id) setScoreYou(data.payload.score);
       else setScoreOpp(data.payload.score);
     });

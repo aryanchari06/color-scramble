@@ -11,7 +11,7 @@ const Navbar = () => {
           href="/"
           className="text-xl sm:text-2xl font-bold tracking-wide hover:text-gray-300 transition"
         >
-          ColorMemory
+          ColorScramble
         </Link>
       </div>
     </nav>

@@ -69,6 +69,9 @@ const Page = () => {
         <h1 className="text-4xl sm:text-5xl font-extrabold tracking-wide text-center">
           {gameData.randomColorName}
         </h1>
+        <p className="text-gray-600 text-center text-lg">
+          Tap the color block that matches this name
+        </p>
 
         {/* Color Buttons Grid */}
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 ">
